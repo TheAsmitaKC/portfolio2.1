@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(npx turbo:*)",
+      "Bash(cd:*)",
+      "Bash(rm -rf packages turbo.json .eslintrc.js)",
+      "Bash(rm -rf apps/web/.next)",
+      "Bash(rm -rf apps/web/app apps/web/components apps/web/lib apps/web/hooks)",
+      "Bash(rm -f apps/web/package.json apps/web/tsconfig.json apps/web/next.config.mjs apps/web/postcss.config.mjs apps/web/eslint.config.js apps/web/components.json apps/web/next-env.d.ts)",
+      "Bash(rm -rf node_modules package-lock.json)",
+      "Bash(npm install:*)"
+    ]
+  }
+}
